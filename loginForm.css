@@ -1,0 +1,27 @@
+:root{
+    --green: #06D6A0;
+    --darkGreen: #00AFB9;
+    --lightGreen: #06d69ec2;
+}
+
+body{
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+}
+
+form{
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+
+}
+
+fieldset{
+    border: none;
+}
+
